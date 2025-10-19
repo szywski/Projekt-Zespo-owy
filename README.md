@@ -38,15 +38,12 @@ Projekt promuje **dobre postawy społeczne** oraz **aktywność obywatelską**, 
 ---
 
 ### 4️⃣ Zakres projektu
-**W zakresie:**
 - Rejestracja organizacji i fundacji  
 - Rejestracja i zarządzanie kontami wolontariuszy  
 - Tworzenie i publikacja wydarzeń społecznych  
 - Zapisy wolontariuszy na wydarzenia  
 - System potwierdzania udziału (link e-mailowy)
-
-**Poza zakresem:**
-- Integracja z zewnętrznym serwisem pocztowym  
+- Integracja z zewnętrznym serwisem pocztowym 
 - Moduł płatności lub darowizn online  
 
 ---
@@ -81,9 +78,14 @@ Projekt promuje **dobre postawy społeczne** oraz **aktywność obywatelską**, 
 ---
 
 ### 8️⃣ Ryzyka i działania zapobiegawcze
-- **Brak komunikacji w zespole →** cotygodniowe spotkania statusowe  
-- **Opóźnienia w implementacji →** podział zadań i sprinty  
-- **Brak doświadczenia z wybraną technologią →** szybkie prototypowanie, konsultacje, szkolenia, wykorzystanie AI  
+| **Ryzyko** | **Prawdopodobieństwo** | **Oddziaływanie** | **Działanie zapobiegawcze** |
+|-------------|------------------------|-------------------|------------------------------|
+| Brak regularnej komunikacji w zespole | Średnie | Wysokie | Ustalenie cotygodniowych spotkań statusowych online (Discord), prowadzenie dziennika postępu w Jira. |
+| Opóźnienia w implementacji | Średnie | Wysokie | Podział zadań na mniejsze sprinty, kontrola kamieni milowych, priorytetyzacja funkcji MVP. |
+| Brak doświadczenia w wybranych technologiach (NestJS, Angular) | Wysokie | Średnie | Samokształcenie, prototypowanie, korzystanie z dokumentacji i pomocy AI. |
+| Problemy z integracją backend–frontend | Średnie | Wysokie | Wczesne ustalenie kontraktów API (Swagger), testy integracyjne od początku projektu. |
+| Konflikty wersji w repozytorium Git | Średnie | Średnie | Praca na osobnych branchach feature’owych, częste merge’y i code review. |
+| Brak czasu członków zespołu (inne obowiązki, studia) | Wysokie | Średnie | Harmonogram z buforem czasowym, plan awaryjny i równoważenie obciążenia. |
 
 ---
 
