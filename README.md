@@ -3,7 +3,7 @@ Repozytorium Projektu Zespołowego
 Gr6.
 
 Gabriela Górska
-Damian Abramski
+Damian Abramczuk
 Szymon Chmielewski
 
 1. Lubelski System Wsparcia Inicjatyw Społecznych LSWIS
