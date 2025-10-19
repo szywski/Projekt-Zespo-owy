@@ -31,7 +31,7 @@ _Ułatwienie organizacji wydarzeń społecznych i wspieranie wolontariuszy w mie
 ---
 
 ### 3️⃣ Uzasadnienie biznesowe / edukacyjne
-Inicjatywa miejska ma na celu odciążenie niewydolnego systemu pomocy społecznej (MOPS).  
+Zlecenie Miasta Lublin które ma na celu odciążenie niewydolnego systemu pomocy społecznej (MOPS).  
 W Lublinie rośnie zapotrzebowanie na wsparcie dla osób starszych, niepełnosprawnych i znajdujących się w trudnej sytuacji życiowej.  
 Projekt promuje **dobre postawy społeczne** oraz **aktywność obywatelską**, a dla zespołu stanowi **praktyczne doświadczenie** w tworzeniu systemów wspierających realne działania społeczne.
 
