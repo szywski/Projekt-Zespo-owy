@@ -7,7 +7,7 @@ Damian Abramczuk
 Szymon Chmielewski
 
 Sekcja	Treść projektu
-1. Tytuł projektu	Lubelski System Wsparcia Inicjatyw Społecznych (LSWIS)
+1. Tytuł projektu	Lubelski System Wsparcia Inicjatyw Społecznych (*LSWIS*)
 2. Cel projektu	Stworzenie aplikacji internetowej, która ułatwi organizację wydarzeń społecznych i umożliwi skuteczne delegowanie pomocy dla osób potrzebujących. Projekt ma na celu wsparcie działań wolontariuszy oraz organizacji pozarządowych działających na terenie miasta Lublina.
 3. Uzasadnienie biznesowe / edukacyjne	Inicjatywa miejska ma na celu odciążenie niewydolnego systemu pomocy społecznej (MOPS). W Lublinie rośnie zapotrzebowanie na wsparcie dla osób starszych, niepełnosprawnych i znajdujących się w trudnej sytuacji życiowej. Projekt promuje dobre postawy społeczne oraz aktywizację obywatelską, a dla zespołu stanowi praktyczne doświadczenie w tworzeniu systemów wspierających realne działania społeczne.
 4. Zakres projektu	W zakresie:
