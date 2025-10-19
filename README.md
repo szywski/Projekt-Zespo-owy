@@ -20,15 +20,18 @@ Sekcja	Treść projektu
 Poza zakresem:
 • Integracja z zewnętrznym serwisem pocztowym
 • Moduł płatności lub darowizn online
+
 5. Główne wymagania	• Organizacja może dodać wydarzenie społeczne z opisem, datą i miejscem.
 • Wolontariusz może się zarejestrować i zapisać na wybrane wydarzenie.
 • System wysyła powiadomienie e-mail z potwierdzeniem udziału.
 • Administrator nadzoruje przebieg wydarzeń i aktywność wolontariuszy.
+
 6. Zespół projektowy i role	• Kierownik projektu: Szymon Chmielewski
 • Analityk systemowy: Damian Abramczuk
 • Programista backend/frontend: Szymon Chmielewski, Damian Abramczuk
 • UI/UX Designer: Gabriela Górska
 • QA Gabriela Górska
+
 7. Zasoby i narzędzia:
 • Technologie: Node.js (NestJS), Angular, PostgreSQL
 • Środowisko: Docker, GitHub Actions
@@ -36,22 +39,27 @@ Poza zakresem:
 • Zarządzanie projektem: Jira
 • Projektowanie: Figma
 • Komunikacja: Discord
+
 8. Harmonogram wstępny	• 1–2 tydz.: Analiza wymagań i opracowanie dokumentacji
 • 3–4 tydz.: Projekt architektury i makiet UI
 • 5–7 tydz.: Implementacja backendu i frontendu
 • 8 tydz.: Testy funkcjonalne i integracyjne
 • 9 tydz.: Uzupełnienie dokumentacji i przygotowanie prezentacji
 • 10 tydz.: Prezentacja projektu
+
 9. Ryzyka i działania zapobiegawcze:
 • Brak komunikacji w zespole → cotygodniowe spotkania statusowe
 • Opóźnienia w implementacji → podział zadań i harmonogram sprintów
 • Brak doświadczenia z wybraną technologią → szybkie prototypowanie i konsultacje, użycie AI, szkolenia
+
 10. Oczekiwane rezultaty (produkty projektu)	• Działający prototyp aplikacji webowej umożliwiającej organizację i obsługę wydarzeń społecznych
 • Pełna dokumentacja projektowa (analiza, diagramy UML, instrukcja użytkownika)
+
 11. Kryteria sukcesu	• Aplikacja działa poprawnie w przeglądarce
 • Wszystkie kluczowe funkcje (rejestracja, zapisy, e-maile) działają zgodnie z założeniami
 • Dokumentacja jest kompletna i przejrzysta
 • Prezentacja końcowa potwierdza osiągnięcie celów projektu
+
 12. Akceptacja projektu	Zatwierdza:
 Prowadzący: ...........................................
 Kierownik projektu: Szymon Chmielewski
