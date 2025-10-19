@@ -1,12 +1,12 @@
-# 🎯 Projekt Zespołowy – Grupa 6
+#  Projekt Zespołowy – Grupa 6
 
-## 📁 Repozytorium Projektu Zespołowego
+##  Repozytorium Projektu Zespołowego
 **Lubelski System Wsparcia Inicjatyw Społecznych (LSWIS)**  
 _Ułatwienie organizacji wydarzeń społecznych i wspieranie wolontariuszy w mieście Lublin._
 
 ---
 
-### 👥 Zespół projektowy
+###  Zespół projektowy
 - **Kierownik projektu:** Szymon Chmielewski  
 - **Analityk systemowy:** Damian Abramczuk  
 - **Programista backend/frontend:** Szymon Chmielewski, Damian Abramczuk  
@@ -15,7 +15,7 @@ _Ułatwienie organizacji wydarzeń społecznych i wspieranie wolontariuszy w mie
 
 ---
 
-## 🧩 Sekcje projektu
+##  Sekcje projektu
 
 ### 1️⃣ Tytuł projektu
 **Lubelski System Wsparcia Inicjatyw Społecznych (LSWIS)**
