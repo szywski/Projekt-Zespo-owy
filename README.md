@@ -110,3 +110,4 @@ Kierownik projektu: **Szymon Chmielewski**
 ---
 
 📅 _Grupa projektowa nr 6 – Lublin, 2025_
+Wersja dokumentu: 1.0
