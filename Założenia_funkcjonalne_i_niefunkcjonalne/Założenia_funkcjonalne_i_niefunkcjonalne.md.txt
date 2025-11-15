@@ -3,23 +3,15 @@ Lubelski System Wsparcia Inicjatyw Społecznych
 ## 🧩 Założenia funkcjonalne (70)
 1. Użytkownicy i role
 
-System umożliwia rejestrację organizacji pozarządowych.
-
 System umożliwia rejestrację wolontariuszy.
 
 System umożliwia logowanie użytkowników z użyciem e-maila i hasła.
 
 Administrator zatwierdza konta organizacji.
 
-Każdy użytkownik może edytować swoje dane profilowe.
-
 System umożliwia reset hasła poprzez wysłanie linku na e-mail.
 
 2. Wydarzenia społeczne
-
-Organizacja może tworzyć wydarzenia z opisem, lokalizacją i terminem.
-
-Organizacja może edytować lub usuwać własne wydarzenia.
 
 Wydarzenie ma maksymalny limit miejsc.
 
@@ -29,21 +21,15 @@ Wolontariusz może zapisać się na wydarzenie.
 
 Wolontariusz może anulować zapis na wydarzenie.
 
-Organizacja może przeglądać listę zapisanych wolontariuszy.
+Organizator wydarzenia może przeglądać listę zapisanych wolontariuszy.
 
 System blokuje rekrutację po przekroczeniu limitu miejsc.
-
-System umożliwia filtrowanie wydarzeń po dacie, typie i lokalizacji.
 
 3. Powiadomienia i e-mail
 
 System wysyła e-mail potwierdzający zapis na wydarzenie.
 
 System powiadamia organizatora o nowych zapisach.
-
-System wysyła link do potwierdzenia obecności (check-in).
-
-Wolontariusz potwierdza obecność poprzez link.
 
 System wysyła przypomnienie o wydarzeniu dzień wcześniej.
 
@@ -61,8 +47,6 @@ Administrator może przeglądać wszystkie konta, wydarzenia i zapisy.
 
 Administrator może blokować i odblokowywać użytkowników.
 
-Administrator generuje raport uczestnictwa.
-
 Administrator może dodawać komunikaty globalne.
 
 6. Zarządzanie systemem
@@ -71,22 +55,15 @@ System eksportuje dane do pliku CSV.
 
 System pokazuje statystyki aktywności użytkowników i wydarzeń.
 
-Formularz zgłoszeń błędów dostępny dla użytkowników.
 
 ## 🧩 Dodatkowe założenia funkcjonalne (20)
 7. Profil i kompetencje wolontariusza
 
 Wolontariusz może wprowadzać swoje kompetencje i umiejętności.
 
-Organizacja może określić wymagane kompetencje do wydarzenia.
-
 System sugeruje wydarzenia dopasowane do profilu wolontariusza.
 
 Wolontariusz może przeglądać historię swoich wydarzeń.
-
-Organizacja może wystawić wolontariuszowi ocenę po wydarzeniu.
-
-Wolontariusz może ocenić wydarzenie w skali 1–5.
 
 8. Komunikacja
 
@@ -108,30 +85,12 @@ System automatycznie ukrywa treści z niedozwolonymi słowami.
 
 Wydarzenia mogą zawierać dane geolokalizacyjne.
 
-System pozwala filtrować wydarzenia po odległości od użytkownika.
-
-System umożliwia wyświetlenie trasy dojazdu do wydarzenia.
-
-11. Zarządzanie zasobami wydarzenia
-
-Organizacja może określić typy wolontariuszy potrzebnych na wydarzenie.
-
-System blokuje zapisy na rolę po osiągnięciu limitu.
-
-Organizacja może tworzyć listę potrzebnego sprzętu i materiałów.
-
-12. Statystyki i analizy
-
-Wolontariusz widzi statystyki swojej aktywności (godziny, liczba akcji).
-
-Organizacja widzi statystyki efektywności wydarzeń (zapisy, obecność).
-
 ## ⚙️ Założenia niefunkcjonalne (30)
 13. Bezpieczeństwo
 
 Hasła przechowywane są w formie zaszyfrowanej (bcrypt).
 
-Wymagana jest ponowna autoryzacja po okresie nieaktywności.
+Wymagana jest ponowna autoryzacja po okresie nieaktywności (sesja wygasła).
 
 Panel administracyjny dostępny tylko dla roli ADMIN.
 
@@ -139,21 +98,13 @@ Komunikacja API odbywa się wyłącznie przez HTTPS.
 
 Ochrona przed SQL Injection (ORM TypeORM).
 
-Ochrona przed atakami CSRF.
-
 Limit prób logowania (ochrona przed brute-force).
 
 14. Wydajność
 
 API odpowiada w <300 ms dla 95% zapytań.
 
-System obsługuje do 500 równoczesnych użytkowników.
-
 Paginacja obowiązkowa dla list.
-
-Indeksy w bazie danych dla często wyszukiwanych pól.
-
-Cache plików statycznych po stronie przeglądarki.
 
 15. Niezawodność
 
@@ -165,36 +116,20 @@ Ponawianie wysyłki e-maili w przypadku błędu (retry).
 
 Błąd jednej usługi nie blokuje działania całego systemu (fail-safe).
 
-Logowanie błędów do narzędzia monitorującego (np. Sentry).
-
 16. Użyteczność
-
-UI zgodne z WCAG 2.1.
 
 Responsywność na urządzenia mobilne.
 
 Formularze weryfikowane po stronie klienta i serwera.
 
-System posiada jasny i ciemny motyw.
-
-Przejrzysta nawigacja i czytelny layout.
+Nawigacja i layout zgodne z projektem.
 
 17. Skalowalność
 
-Uruchamianie systemu w Dockerze.
-
-Możliwość skalowania API w trybie multi-instance.
-
-Baza danych może być przeniesiona do chmury (AWS RDS).
+Baza danych może być przeniesiona do chmury (AWS).
 
 18. Konserwowalność
-
-Kod zgodny ze standardami formatowania (ESLint / Prettier).
 
 Testy jednostkowe (min. 30% pokrycia).
 
 Automatyczna dokumentacja API (Swagger).
-
-Modułowa struktura kodu źródłowego.
-
-CI/CD realizowane za pomocą GitHub Actions.
