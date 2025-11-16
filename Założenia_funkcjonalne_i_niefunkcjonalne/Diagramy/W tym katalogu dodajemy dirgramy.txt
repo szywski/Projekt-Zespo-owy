@@ -16,14 +16,11 @@ Gaba:
 
 Damian:
 
-System umożliwia rejestrację wolontariuszy.
-System umożliwia logowanie użytkowników z użyciem e-maila i hasła.
-Wolontariusz może anulować zapis na wydarzenie.
-Organizator wydarzenia może przeglądać listę zapisanych wolontariuszy.
-System powiadamia organizatora o nowych zapisach.
-System wysyła przypomnienie o wydarzeniu dzień wcześniej.
-System umożliwia dokonywanie dobrowolnych darowizn.
-Integracja z zewnętrznym operatorem płatności (np. Stripe).
-System eksportuje dane do pliku CSV.
-System pokazuje statystyki aktywności użytkowników i wydarzeń.
 
+
+System umożliwia logowanie użytkowników z użyciem e-maila i hasła.
+Administrator zatwierdza konta organizacji.
+Wydarzenie ma maksymalny limit miejsc.
+System blokuje rekrutację po przekroczeniu limitu miejsc.
+System umożliwia dokonywanie dobrowolnych darowizn.
+Administrator może przeglądać wszystkie konta, wydarzenia i zapisy.
