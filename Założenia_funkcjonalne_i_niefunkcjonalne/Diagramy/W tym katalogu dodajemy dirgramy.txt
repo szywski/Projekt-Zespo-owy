@@ -18,7 +18,6 @@ Damian:
 
 System umożliwia rejestrację wolontariuszy.
 System umożliwia logowanie użytkowników z użyciem e-maila i hasła.
-System umożliwia reset hasła poprzez wysłanie linku na e-mail.
 Wolontariusz może anulować zapis na wydarzenie.
 Organizator wydarzenia może przeglądać listę zapisanych wolontariuszy.
 System powiadamia organizatora o nowych zapisach.
