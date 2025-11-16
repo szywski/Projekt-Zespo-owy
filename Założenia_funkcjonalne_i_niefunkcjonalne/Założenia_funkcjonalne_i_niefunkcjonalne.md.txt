@@ -1,6 +1,6 @@
-📘 Założenia systemu – LSWIS
+Założenia systemu – LSWIS
 Lubelski System Wsparcia Inicjatyw Społecznych
-## 🧩 Założenia funkcjonalne (70)
+## Założenia funkcjonalne
 1. Użytkownicy i role
 
 System umożliwia rejestrację wolontariuszy.
@@ -33,7 +33,7 @@ System powiadamia organizatora o nowych zapisach.
 
 System wysyła przypomnienie o wydarzeniu dzień wcześniej.
 
-4. Moduł płatności / darowizn
+4. Moduł płatności / darowizn 
 
 System umożliwia dokonywanie dobrowolnych darowizn.
 
