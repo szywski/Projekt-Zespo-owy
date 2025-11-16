@@ -15,3 +15,16 @@ Gaba:
 
 
 Damian:
+
+System umożliwia rejestrację wolontariuszy.
+System umożliwia logowanie użytkowników z użyciem e-maila i hasła.
+System umożliwia reset hasła poprzez wysłanie linku na e-mail.
+Wolontariusz może anulować zapis na wydarzenie.
+Organizator wydarzenia może przeglądać listę zapisanych wolontariuszy.
+System powiadamia organizatora o nowych zapisach.
+System wysyła przypomnienie o wydarzeniu dzień wcześniej.
+System umożliwia dokonywanie dobrowolnych darowizn.
+Integracja z zewnętrznym operatorem płatności (np. Stripe).
+System eksportuje dane do pliku CSV.
+System pokazuje statystyki aktywności użytkowników i wydarzeń.
+
